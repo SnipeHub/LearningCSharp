@@ -1,6 +1,7 @@
 # LearningCSharp
 C# learning
 
+C#Main
 Repo for all my C# code
 
 // Currently decided to learn C#, after a fair bit of research, and also with the direction I wish to go, this is the best language to learn in that regard.

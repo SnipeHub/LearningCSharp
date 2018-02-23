@@ -10,6 +10,21 @@ namespace NumbersPractice
     {
         static void Main(string[] args)
         {
+            /* 
+            A different way of writing it, not sure if its better or not!! 
+
+            Scrap that, apperently my original way is better.
+            */
+
+            /*
+            double adminOne;
+            double dayTotalOne;
+
+            dayTotalOne = 0.5 + 3.0;
+            adminOne = 7.5 - dayTotalOne;
+            Console.WriteLine("Monday Total: " + dayTotalOne + " - " + "Admin: " + adminOne);
+            */
+
             double Monday = 0.5 + 3.0;
             double adminMon = 7.5 - Monday;
             Console.WriteLine("Monday 19.02.2018 is: " + Monday + " - "  + "Admin is: " + adminMon);
@@ -32,7 +47,9 @@ namespace NumbersPractice
 
             Console.ReadLine();
 
-            // Next iteration is to do this as a windows program with input fields. This is my first official C# program to be made by moi
+            /*
+            Next iteration is to do this as a windows program with input fields. This is my first ever C# program to be made by moi
+            */
         }
     }
 }

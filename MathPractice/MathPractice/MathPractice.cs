@@ -50,7 +50,8 @@ namespace NumbersPractice
             Console.ReadLine();
 
             /*
-            Next iteration is to do this as a windows program with input fields. This is my first ever C# program to be made by moi
+            Next iteration is to do this as a windows program with input fields. This is my first ever C# program to be made by moi.
+            For now this is pretty much done as is, once I learn how to have user input, it will be added.
             */
         }
     }

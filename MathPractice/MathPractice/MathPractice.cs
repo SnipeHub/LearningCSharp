@@ -27,26 +27,26 @@ namespace NumbersPractice
 
             double Mon, Tue, Wed, Thu, Fri, Sat, Sun; // Fixing up further by declaring all variables up here and shortening it
 
-            Mon = 0.5 + 3.0; // Edit these values for each day
+            Mon = 0.9 + 1.8; // Edit these values for each day
             double adminMon = 7.5 - Mon;
             Console.WriteLine("Monday 19.02.2018 is: " + Mon + " - "  + "Admin is: " + adminMon);
 
-            Tue = 0.7 + 2.9;
+            Tue = 2.0 + 3.4;
             double adminTue = 7.5 - Tue;
             Console.WriteLine("Tuesday 20.02 is: " + Tue + " - " + "Admin is: " + adminTue);
 
-            Wed = 1.7 + 2.2;
+            Wed = 1.4 + 3.3;
             double adminWed = 7.5 - Wed;
             Console.WriteLine("Wednesday 21.02 is: " + Wed + " - " + "Admin is: " + adminWed);
 
-            Thu = 1.8 + 2.0;
+            /*Thu = 1.8 + 2.0;
             double adminThur = 7.5 - Thu;
             Console.WriteLine("Thursday 22.02 is: " + Thu + " - " + "Admin is: " + adminThur);
 
             Fri = 1.0 + 2.8;
             double adminFri = 7.5 - Fri;
-            Console.WriteLine("Friday 23.02 is: " + Fri + " - " + "Admin is: " + adminFri);
-
+            Console.WriteLine("Friday 23.02 is: " + Fri + " - " + "Admin is: " + adminFri);                 
+            */
             Console.ReadLine();
 
             /*

@@ -32,7 +32,8 @@ namespace ReadTextFileWhile
 
             catch (DirectoryNotFoundException e)
             {
-                Console.WriteLine("Couldn't find the file. Are you sure the DIRECTORY exists?"); // this will come up if the directory cant be found
+                Console.WriteLine("Couldn't find the file. Are you sure the DIRECTORY exists?"); // this will come up if the directory cant be found. To make use of these errors, change the name of
+                // Vlaues.txt to something else, or add a new file directory.
             }
             catch (FileNotFoundException e)
             {

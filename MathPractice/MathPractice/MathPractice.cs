@@ -30,25 +30,25 @@ namespace NumbersPractice
 
             double Mon, Tue, Wed, Thu, Fri, Sat, Sun; // Fixing up further by declaring all variables up here and shortening it
 
-            //Mon = 0.9 + 1.8; // Edit these values for each day
-            //double adminMon = 7.5 - Mon;
-            //Console.WriteLine("Monday is: " + Mon + " - "  + "Admin is: " + adminMon + "\n");
+            Mon = 1.6 + 3.4; // Edit these values for each day
+            double adminMon = 7.5 - Mon;
+            Console.WriteLine("Monday is: " + Mon + " - "  + "Admin is: " + adminMon + "\n");
 
-            //Tue = 2.0 + 3.4;
-            //double adminTue = 7.5 - Tue;
-            //Console.WriteLine("Tuesday is: " + Tue + " - " + "Admin is: " + adminTue + "\n");
+            Tue = 1.1 + 2.8;
+            double adminTue = 7.5 - Tue;
+            Console.WriteLine("Tuesday is: " + Tue + " - " + "Admin is: " + adminTue + "\n");
 
             //Wed = 1.4 + 3.3;
-           // double adminWed = 7.5 - Wed;
+            //double adminWed = 7.5 - Wed;
             //Console.WriteLine("Wednesday is: " + Wed + " - " + "Admin is: " + adminWed + "\n");
 
-            Thu = 1.5 + 3.4;
-            double adminThur = 7.5 - Thu;
-            Console.WriteLine("Thursday 01.03.2018 is: " + Thu + " - " + "Admin is: " + adminThur + "\n");
+            //Thu = 1.5 + 3.4;
+            //double adminThur = 7.5 - Thu;
+            //Console.WriteLine("Thursday 01.03.2018 is: " + Thu + " - " + "Admin is: " + adminThur + "\n");
             
-            Fri = 1.4 + 1.4;
-            double adminFri = 7.5 - Fri;
-            Console.WriteLine("Friday 23.02 is: " + Fri + " - " + "Admin is: " + adminFri + "\n");                 
+            //Fri = 1.4 + 1.4;
+            //double adminFri = 7.5 - Fri;
+            //Console.WriteLine("Friday 23.02 is: " + Fri + " - " + "Admin is: " + adminFri + "\n");                 
             
             Console.ReadLine();
 

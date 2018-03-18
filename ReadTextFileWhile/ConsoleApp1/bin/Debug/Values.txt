@@ -5,4 +5,6 @@
 23
 42
 
-// Make sure this file is locatyed in the bin folder where the console application is created.
+// Make sure this file is located in the bin folder where the console application is created.
+
+// Your are now reading the contents of the text file

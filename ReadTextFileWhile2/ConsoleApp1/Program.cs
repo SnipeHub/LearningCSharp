@@ -11,10 +11,6 @@ namespace ReadTextFileWhile
     {
         static void Main(string[] args)
         {
-
-            try
-            {
-
                 StreamReader myReader = new StreamReader("Values.txt"); // myReader variable // Make sure the values.txt file is located in the bin folder or it will not compile
                 string line = ""; // declared an empty string
 
@@ -26,23 +22,6 @@ namespace ReadTextFileWhile
                 }
 
                 myReader.Close(); // make sure to close the while loop
-
-
-            }
-
-            catch (DirectoryNotFoundException e)
-            {
-                Console.WriteLine("Couldn't find the file. Are you sure the DIRECTORY exists?"); // this will come up if the directory cant be found
-            }
-            catch (FileNotFoundException e)
-            {
-                Console.WriteLine("Something didn't work correctly: {0}", e.Message); // This will come up if the direcotry is correct, but cant find the file
-            }
-            finally
-            {
-                // Perform any cleanup to roll back the data or close connections
-                // to files, database, network, etc.
-            }
 
 
             Console.ReadLine();

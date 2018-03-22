@@ -17,6 +17,7 @@ namespace ReadTextFileWhile
 
                 StreamReader myReader = new StreamReader("Values.txt"); // myReader variable // Make sure the values.txt file is located in the bin folder or it will not compile
                 string line = ""; // declared an empty string
+                string e = "";
 
                 while (line != null)
                 {

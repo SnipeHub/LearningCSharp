@@ -29,14 +29,16 @@ namespace NumbersPractice
             Console.WriteLine("Current Date and Time: " + now + "\n");
 
             double Mon, Tue, Wed, Thu, Fri, Sat, Sun; // Fixing up further by declaring all variables up here and shortening it
+            string monString, tueString, wedString, thurString, friString;
+            double adminMon, adminTue, adminWed, adminThur, admiFri, totalMon, totalTue, totalWed, totalThu, totalFri;
 
-            Mon = 1.6 + 3.4; // Edit these values for each day
-            double adminMon = 7.5 - Mon;
-            Console.WriteLine("Monday is: " + Mon + " - "  + "Admin is: " + adminMon + "\n");
+            Console.WriteLine("Please enter to total time for Monday(Do not include admin): ");
+            monString = Console.ReadLine();
+            Mon = double.Parse(monString);
 
-            Tue = 1.1 + 2.8;
-            double adminTue = 7.5 - Tue;
-            Console.WriteLine("Tuesday is: " + Tue + " - " + "Admin is: " + adminTue + "\n");
+            Console.WriteLine("Please enter the total time for Tuesday: ");
+            tueString = Console.ReadLine();
+            Tue = double.Parse(tueString);
 
             //Wed = 1.4 + 3.3;
             //double adminWed = 7.5 - Wed;
@@ -45,12 +47,22 @@ namespace NumbersPractice
             //Thu = 1.5 + 3.4;
             //double adminThur = 7.5 - Thu;
             //Console.WriteLine("Thursday 01.03.2018 is: " + Thu + " - " + "Admin is: " + adminThur + "\n");
-            
+
             //Fri = 1.4 + 1.4;
             //double adminFri = 7.5 - Fri;
-            //Console.WriteLine("Friday 23.02 is: " + Fri + " - " + "Admin is: " + adminFri + "\n");                 
-            
-            Console.ReadLine();
+            //Console.WriteLine("Friday 23.02 is: " + Fri + " - " + "Admin is: " + adminFri + "\n");     
+
+            totalMon = 7.5 - Mon; // do calculations here
+            totalTue = 7.5 - Tue;
+            //totalWed = 7.5 - Wed;
+            //totalThu = 7.5 - Thu;
+            //totalFri = 7.5 - Fri;
+
+            Console.WriteLine("Monday field hrs: " + Mon + " / " + "Your admin is: " + totalMon + "\n");
+            Console.WriteLine("Tuesday field hrs: " + Tue + " / " + "Your admin is: " + totalTue + "\n");
+            //Console.WriteLine("Tuesday field hrs: " + Wed + " / " + "Your admin is: " + totalWed + "\n");
+            //Console.WriteLine("Tuesday field hrs: " + Thu + " / " + "Your admin is: " + totalThu + "\n");
+            //Console.WriteLine("Tuesday field hrs: " + Fri + " / " + "Your admin is: " + totalFri + "\n");
 
             /*
             Next iteration is to do this as a windows program with input fields. This is my first ever C# program to be made by moi.

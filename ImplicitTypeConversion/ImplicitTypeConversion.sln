@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitTypeConversion", "ImplicitTypeConversion\ImplicitTypeConversion.csproj", "{1199E6D4-0336-4A01-91E1-3980F1C51666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1199E6D4-0336-4A01-91E1-3980F1C51666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1199E6D4-0336-4A01-91E1-3980F1C51666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1199E6D4-0336-4A01-91E1-3980F1C51666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1199E6D4-0336-4A01-91E1-3980F1C51666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2965C37-DCC8-4E92-B67A-F1778BFD3A57}
+	EndGlobalSection
+EndGlobal
